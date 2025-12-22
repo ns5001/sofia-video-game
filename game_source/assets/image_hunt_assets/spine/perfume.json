@@ -1,0 +1,506 @@
+{
+"skeleton": {
+	"hash": "yMxvKvefqFwGrcJ9cJRnQXfQ3ks",
+	"spine": "3.8.72",
+	"x": 858.19,
+	"y": -466.95,
+	"width": 259,
+	"height": 536.26,
+	"images": "./park_images/",
+	"audio": "/Users/workinman009/Documents/Projects/UB/design/02_working/noelle"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "perfume", "parent": "root", "x": 1014.81, "y": -436.26 },
+	{ "name": "hip", "parent": "perfume", "x": 6.52, "y": 226.22, "color": "ffffffff" },
+	{
+		"name": "thigh_f",
+		"parent": "hip",
+		"length": 85.18,
+		"rotation": -98.3,
+		"x": 19.32,
+		"y": -11.41,
+		"color": "feb13aff"
+	},
+	{ "name": "shin_f", "parent": "thigh_f", "length": 121.41, "rotation": 18.71, "x": 85.18, "color": "feb13aff" },
+	{ "name": "foot_f", "parent": "shin_f", "length": 53.62, "rotation": -60.73, "x": 121.41, "color": "feb13aff" },
+	{
+		"name": "thigh_b",
+		"parent": "hip",
+		"length": 80.29,
+		"rotation": -95.65,
+		"x": -11.41,
+		"y": -14.05,
+		"color": "4d05ffff"
+	},
+	{ "name": "shin_b", "parent": "thigh_b", "length": 94.36, "rotation": 10.99, "x": 80.29, "color": "4d05ffff" },
+	{ "name": "foot_b", "parent": "shin_b", "length": 53.15, "rotation": -64.54, "x": 94.36, "color": "4d05ffff" },
+	{ "name": "torso", "parent": "hip", "length": 144.87, "rotation": 90.35, "y": -0.88, "color": "fff900ff" },
+	{ "name": "neck", "parent": "torso", "length": 38.72, "rotation": 3.55, "x": 144.87, "color": "fff900ff" },
+	{ "name": "head", "parent": "neck", "length": 91.15, "rotation": 3.29, "x": 38.72, "color": "fff900ff" },
+	{ "name": "heel_f", "parent": "root", "x": 1050.3, "y": -425.07, "color": "ff3f00ff" },
+	{ "name": "toe_f", "parent": "root", "x": 1009.03, "y": -459.56, "color": "ff3f00ff" },
+	{ "name": "heel_b", "parent": "root", "x": 1010.85, "y": -397.9, "color": "ff3f00ff" },
+	{ "name": "toe_b", "parent": "root", "x": 965.23, "y": -425.31, "color": "ff3f00ff" },
+	{
+		"name": "shoulder_f",
+		"parent": "torso",
+		"length": 75.12,
+		"rotation": 171.64,
+		"x": 135.51,
+		"y": -46.99,
+		"color": "ff0202ff"
+	},
+	{
+		"name": "wrist_f",
+		"parent": "shoulder_f",
+		"length": 116.55,
+		"rotation": -35.26,
+		"x": 76.13,
+		"y": 0.7,
+		"color": "ff0202ff"
+	},
+	{
+		"name": "shoulder_b",
+		"parent": "torso",
+		"length": 38.32,
+		"rotation": 167.72,
+		"x": 134.96,
+		"y": 42.83,
+		"color": "1eff00ff"
+	},
+	{
+		"name": "wrist_b",
+		"parent": "shoulder_b",
+		"length": 62.05,
+		"rotation": -63.29,
+		"x": 37.69,
+		"y": 0.7,
+		"color": "1eff00ff"
+	},
+	{
+		"name": "hand_b",
+		"parent": "wrist_b",
+		"length": 49.41,
+		"rotation": -21.82,
+		"x": 61.64,
+		"y": 0.17,
+		"color": "1eff00ff"
+	},
+	{
+		"name": "spray",
+		"parent": "perfume",
+		"length": 70.7,
+		"rotation": 21.97,
+		"x": -117.57,
+		"y": 356.73,
+		"color": "e900ffff"
+	},
+	{
+		"name": "skirt",
+		"parent": "hip",
+		"length": 105.26,
+		"rotation": -91.2,
+		"x": 0.43,
+		"y": -0.63,
+		"color": "ffffffff"
+	}
+],
+"slots": [
+	{ "name": "perfume_shadow", "bone": "perfume", "attachment": "perfume_shadow" },
+	{ "name": "perfume_dress_back", "bone": "torso", "attachment": "perfume_dress_back" },
+	{ "name": "perfume_leg_b", "bone": "shin_b", "attachment": "perfume_leg_b" },
+	{ "name": "perfume_foot_b", "bone": "foot_b", "attachment": "perfume_foot_b" },
+	{ "name": "perfume_shoulder_b", "bone": "shoulder_b", "attachment": "perfume_shoulder_b" },
+	{ "name": "perfume_wrist_b", "bone": "wrist_b", "attachment": "perfume_wrist_b" },
+	{ "name": "perfume_hand_b", "bone": "hand_b", "attachment": "perfume_hand_b" },
+	{ "name": "perfume_foot_f", "bone": "foot_f", "attachment": "perfume_foot_f" },
+	{ "name": "perfume_leg_f", "bone": "shin_f", "attachment": "perfume_leg_f" },
+	{ "name": "perfume_skirt", "bone": "skirt", "attachment": "perfume_skirt" },
+	{ "name": "perfume_toso", "bone": "torso", "attachment": "perfume_toso" },
+	{ "name": "perfume_neck", "bone": "neck", "attachment": "perfume_neck" },
+	{ "name": "perfume_wrist_f", "bone": "wrist_f", "attachment": "perfume_wrist_f" },
+	{ "name": "perfume_shoulder_f", "bone": "shoulder_f", "attachment": "perfume_shoulder_f" },
+	{ "name": "perfume_head", "bone": "head", "attachment": "perfume_head" },
+	{ "name": "perfume_spray_1", "bone": "spray", "attachment": "perfume_spray_1" },
+	{ "name": "perfume_spray_2", "bone": "spray" },
+	{ "name": "perfume_spray_3", "bone": "spray" }
+],
+"ik": [
+	{
+		"name": "heel_b",
+		"order": 2,
+		"bones": [ "thigh_b", "shin_b" ],
+		"target": "heel_b"
+	},
+	{
+		"name": "heel_f",
+		"bones": [ "thigh_f", "shin_f" ],
+		"target": "heel_f"
+	},
+	{
+		"name": "toe_b",
+		"order": 3,
+		"bones": [ "foot_b" ],
+		"target": "toe_b"
+	},
+	{
+		"name": "toe_f",
+		"order": 1,
+		"bones": [ "foot_f" ],
+		"target": "toe_f"
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"perfume_dress_back": {
+				"perfume_dress_back": { "x": -9.97, "y": -34.8, "rotation": -90.35, "width": 54, "height": 36 }
+			},
+			"perfume_skirt": {
+				"perfume_skirt": { "x": 50.43, "y": 4.48, "rotation": 91.2, "width": 102, "height": 119 }
+			},
+			"perfume_wrist_f": {
+				"perfume_wrist_f": { "x": 49.88, "y": 1.1, "rotation": 133.28, "width": 116, "height": 104 }
+			},
+			"perfume_shoulder_b": {
+				"perfume_shoulder_b": { "x": 22.77, "y": 3.29, "rotation": 101.94, "width": 46, "height": 75 }
+			},
+			"perfume_neck": {
+				"perfume_neck": { "x": 12.42, "y": 0.42, "rotation": -93.9, "width": 50, "height": 56 }
+			},
+			"perfume_shoulder_f": {
+				"perfume_shoulder_f": { "x": 39.49, "y": -0.31, "rotation": 98.01, "width": 49, "height": 93 }
+			},
+			"perfume_spray_1": {
+				"perfume_spray_1": { "x": 35.73, "y": -2.18, "rotation": -21.97, "width": 68, "height": 69 }
+			},
+			"perfume_spray_2": {
+				"perfume_spray_2": { "x": 42.59, "y": -6.56, "rotation": -21.97, "width": 54, "height": 80 }
+			},
+			"perfume_spray_3": {
+				"perfume_spray_3": { "x": 42.59, "y": -6.56, "rotation": -21.97, "width": 46, "height": 79 }
+			},
+			"perfume_head": {
+				"perfume_head": { "x": 13.93, "y": -19.27, "rotation": -97.19, "width": 164, "height": 161 },
+				"perfume_head_blink": { "x": 13.93, "y": -19.82, "rotation": -97.19, "width": 163, "height": 161 }
+			},
+			"perfume_foot_b": {
+				"perfume_foot_b": { "x": 22.67, "y": -0.45, "rotation": 149, "width": 78, "height": 43 }
+			},
+			"perfume_hand_b": {
+				"perfume_hand_b": { "x": 27.02, "y": -16.25, "rotation": -172.95, "width": 56, "height": 62 }
+			},
+			"perfume_foot_f": {
+				"perfume_foot_f": { "x": 28.08, "y": -2.45, "rotation": 140.12, "width": 86, "height": 47 }
+			},
+			"perfume_toso": {
+				"perfume_toso": { "x": 69.22, "y": -2.28, "rotation": -90.35, "width": 122, "height": 180 }
+			},
+			"perfume_leg_b": {
+				"perfume_leg_b": { "x": 46.95, "y": 5.4, "rotation": 84.51, "width": 43, "height": 113 }
+			},
+			"perfume_wrist_b": {
+				"perfume_wrist_b": { "x": 31.58, "y": 4.54, "rotation": 165.23, "width": 76, "height": 50 }
+			},
+			"perfume_leg_f": {
+				"perfume_leg_f": { "x": 57.26, "y": -6.48, "rotation": 79.45, "width": 52, "height": 133 }
+			},
+			"perfume_shadow": {
+				"perfume_shadow": { "x": 5.34, "y": -3.18, "width": 148, "height": 55 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"perfume_spray_3": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.6, "name": "perfume_spray_3" }
+				]
+			},
+			"perfume_head": {
+				"attachment": [
+					{ "time": 0.1333, "name": "perfume_head_blink" },
+					{ "time": 0.3667, "name": "perfume_head_blink" },
+					{ "time": 1, "name": "perfume_head" }
+				]
+			},
+			"perfume_spray_2": {
+				"color": [
+					{ "time": 0.5667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4333, "name": "perfume_spray_2" }
+				]
+			},
+			"perfume_spray_1": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2333, "name": "perfume_spray_1" }
+				]
+			}
+		},
+		"bones": {
+			"head": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2, "angle": -7.47, "curve": "stepped" },
+					{ "time": 0.6, "angle": -7.47, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 1.1667 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"wrist_b": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2, "angle": -19.79, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"hand_b": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2, "angle": 29.73, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{
+						"time": 0.2,
+						"x": -2.46,
+						"y": -0.67,
+						"curve": 0.743,
+						"c2": 0.01,
+						"c3": 0.764,
+						"c4": 0.99
+					},
+					{ "time": 1 }
+				]
+			},
+			"wrist_f": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "angle": -20.59, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"shoulder_f": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "angle": -12.76, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"torso": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "angle": -2.6, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{
+						"time": 0.3667,
+						"x": 1.24,
+						"y": -0.62,
+						"curve": 0.743,
+						"c2": 0.01,
+						"c3": 0.764,
+						"c4": 0.99
+					},
+					{ "time": 1 }
+				]
+			},
+			"neck": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2, "angle": -2.51, "curve": "stepped" },
+					{ "time": 0.6, "angle": -2.51, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"shoulder_b": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2, "angle": -10.97, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"spray": {
+				"rotate": [
+					{ "time": 0.2333, "angle": -24.91 }
+				],
+				"translate": [
+					{ "time": 0.2333, "x": 5.92, "y": 27.64, "curve": 0.355, "c3": 0.686, "c4": 0.35 },
+					{ "time": 0.7667, "x": 25.94, "y": 25.38 }
+				],
+				"scale": [
+					{ "time": 0.2333, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.7667, "x": 1.508, "y": 1.508 }
+				]
+			},
+			"hip": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3667, "angle": -1.91, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.3667, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"perfume_head": {
+				"attachment": [
+					{ "time": 1.6667, "name": "perfume_head_blink" },
+					{ "time": 1.7667, "name": "perfume_head" },
+					{ "time": 5.8333, "name": "perfume_head_blink" },
+					{ "time": 5.9333, "name": "perfume_head" }
+				]
+			},
+			"perfume_spray_1": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"hip": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6, "angle": -1.35, "curve": "stepped" },
+					{ "time": 2.2667, "angle": -1.35, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.7, "curve": "stepped" },
+					{ "time": 4.0333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.7667, "angle": -1.51, "curve": "stepped" },
+					{ "time": 6.5667, "angle": -1.51, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.2333, "curve": "stepped" },
+					{ "time": 8 }
+				],
+				"translate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6, "x": 5.93, "curve": "stepped" },
+					{ "time": 2.2667, "x": 5.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.7, "curve": "stepped" },
+					{ "time": 4.0333, "curve": "stepped" },
+					{ "time": 7.2333, "curve": "stepped" },
+					{ "time": 8 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6, "angle": -5.8, "curve": "stepped" },
+					{ "time": 2.2667, "angle": -5.8, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.7, "curve": "stepped" },
+					{ "time": 4.0333, "curve": "stepped" },
+					{ "time": 7.2333, "curve": "stepped" },
+					{ "time": 8 }
+				]
+			},
+			"shoulder_f": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6, "angle": 4.84, "curve": "stepped" },
+					{ "time": 2.2667, "angle": 4.84, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.7, "curve": "stepped" },
+					{ "time": 4.0333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.7667, "angle": 7.51, "curve": "stepped" },
+					{ "time": 6.5667, "angle": 7.51, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.2333, "curve": "stepped" },
+					{ "time": 8 }
+				]
+			},
+			"wrist_f": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6, "angle": 13, "curve": "stepped" },
+					{ "time": 2.2667, "angle": 13, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.7, "curve": "stepped" },
+					{ "time": 4.0333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.7667, "angle": -9.6, "curve": "stepped" },
+					{ "time": 6.5667, "angle": -9.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.2333, "curve": "stepped" },
+					{ "time": 8 }
+				]
+			},
+			"wrist_b": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6, "angle": 12.71, "curve": "stepped" },
+					{ "time": 2.2667, "angle": 12.71, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.7, "curve": "stepped" },
+					{ "time": 4.0333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.7667, "angle": -33.16, "curve": "stepped" },
+					{ "time": 6.5667, "angle": -33.16, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.2333, "curve": "stepped" },
+					{ "time": 8 }
+				]
+			},
+			"hand_b": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6, "angle": -14.58, "curve": "stepped" },
+					{ "time": 2.2667, "angle": -14.58, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.7, "curve": "stepped" },
+					{ "time": 4.0333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.7667, "angle": 24.49, "curve": "stepped" },
+					{ "time": 6.5667, "angle": 24.49, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.2333, "curve": "stepped" },
+					{ "time": 8 }
+				]
+			},
+			"neck": {
+				"rotate": [
+					{ "time": 4.0333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.7667, "angle": 5.67, "curve": "stepped" },
+					{ "time": 6.5667, "angle": 5.67, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.2333, "curve": "stepped" },
+					{ "time": 8 }
+				]
+			}
+		}
+	}
+}
+}

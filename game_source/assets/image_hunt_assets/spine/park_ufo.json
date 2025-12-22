@@ -1,0 +1,511 @@
+{
+"skeleton": {
+	"hash": "zu/doTWYGMaguOAveVM0kTGg5pw",
+	"spine": "3.8.72",
+	"x": -79.75,
+	"y": 280.82,
+	"width": 157,
+	"height": 85,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "horizontal", "parent": "root", "x": 7.25, "y": 213.13, "color": "fff870ff" },
+	{ "name": "vert", "parent": "horizontal", "x": 1.26, "y": 43.93, "color": "fff870ff" },
+	{ "name": "rot", "parent": "vert", "x": -6.17, "y": 56.81, "color": "2fff0cff" },
+	{ "name": "UFO", "parent": "rot", "x": 23.17, "y": -0.43, "color": "4c0085ff" }
+],
+"slots": [
+	{ "name": "item_ufo_1", "bone": "UFO", "attachment": "item_ufo_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"item_ufo_1": {
+				"item_ufo_1": { "x": -26.76, "y": 9.89, "width": 157, "height": 85 },
+				"item_ufo_2": { "x": -26.76, "y": 9.89, "width": 157, "height": 85 },
+				"item_ufo_3": { "x": -26.76, "y": 9.89, "width": 157, "height": 85 }
+			}
+		}
+	}
+],
+"animations": {
+	"item_ufo": {
+		"slots": {
+			"item_ufo_1": {
+				"attachment": [
+					{ "name": "item_ufo_1" },
+					{ "time": 0.1, "name": "item_ufo_2" },
+					{ "time": 0.2333, "name": "item_ufo_3" },
+					{ "time": 0.3333, "name": "item_ufo_1" },
+					{ "time": 0.4333, "name": "item_ufo_2" },
+					{ "time": 0.5667, "name": "item_ufo_3" },
+					{ "time": 0.6667, "name": "item_ufo_1" }
+				]
+			}
+		},
+		"bones": {
+			"UFO": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{}
+				]
+			},
+			"horizontal": {
+				"translate": [
+					{ "x": -2.43, "y": -310.66 }
+				]
+			}
+		}
+	},
+	"scene_ufo": {
+		"slots": {
+			"item_ufo_1": {
+				"attachment": [
+					{ "name": "item_ufo_1" },
+					{ "time": 0.1, "name": "item_ufo_2" },
+					{ "time": 0.2333, "name": "item_ufo_3" },
+					{ "time": 0.3333, "name": "item_ufo_1" },
+					{ "time": 0.4333, "name": "item_ufo_2" },
+					{ "time": 0.5667, "name": "item_ufo_3" },
+					{ "time": 0.6667, "name": "item_ufo_1" },
+					{ "time": 0.7667, "name": "item_ufo_2" },
+					{ "time": 0.9, "name": "item_ufo_3" },
+					{ "time": 1, "name": "item_ufo_1" },
+					{ "time": 1.1, "name": "item_ufo_2" },
+					{ "time": 1.2333, "name": "item_ufo_3" },
+					{ "time": 1.3333, "name": "item_ufo_1" },
+					{ "time": 1.4333, "name": "item_ufo_2" },
+					{ "time": 1.5667, "name": "item_ufo_3" },
+					{ "time": 1.6667, "name": "item_ufo_1" },
+					{ "time": 1.7667, "name": "item_ufo_2" },
+					{ "time": 1.9, "name": "item_ufo_3" },
+					{ "time": 2, "name": "item_ufo_1" },
+					{ "time": 2.1, "name": "item_ufo_2" },
+					{ "time": 2.2333, "name": "item_ufo_3" },
+					{ "time": 2.3333, "name": "item_ufo_1" },
+					{ "time": 2.4333, "name": "item_ufo_2" },
+					{ "time": 2.5667, "name": "item_ufo_3" },
+					{ "time": 2.6667, "name": "item_ufo_1" },
+					{ "time": 2.7667, "name": "item_ufo_2" },
+					{ "time": 2.9, "name": "item_ufo_3" },
+					{ "time": 3, "name": "item_ufo_1" },
+					{ "time": 3.1, "name": "item_ufo_2" },
+					{ "time": 3.2333, "name": "item_ufo_3" },
+					{ "time": 3.3333, "name": "item_ufo_1" },
+					{ "time": 3.4333, "name": "item_ufo_2" },
+					{ "time": 3.5667, "name": "item_ufo_3" },
+					{ "time": 3.6667, "name": "item_ufo_1" },
+					{ "time": 3.7667, "name": "item_ufo_2" },
+					{ "time": 3.9, "name": "item_ufo_3" },
+					{ "time": 4, "name": "item_ufo_1" },
+					{ "time": 4.1, "name": "item_ufo_2" },
+					{ "time": 4.2333, "name": "item_ufo_3" },
+					{ "time": 4.3333, "name": "item_ufo_1" },
+					{ "time": 4.4333, "name": "item_ufo_2" },
+					{ "time": 4.5667, "name": "item_ufo_3" },
+					{ "time": 4.6667, "name": "item_ufo_1" },
+					{ "time": 4.7667, "name": "item_ufo_2" },
+					{ "time": 4.9, "name": "item_ufo_3" },
+					{ "time": 5, "name": "item_ufo_1" },
+					{ "time": 5.1, "name": "item_ufo_2" },
+					{ "time": 5.2333, "name": "item_ufo_3" },
+					{ "time": 5.3333, "name": "item_ufo_1" },
+					{ "time": 5.4333, "name": "item_ufo_2" },
+					{ "time": 5.5667, "name": "item_ufo_3" },
+					{ "time": 5.6667, "name": "item_ufo_1" },
+					{ "time": 5.7667, "name": "item_ufo_2" },
+					{ "time": 5.9, "name": "item_ufo_3" },
+					{ "time": 6, "name": "item_ufo_1" },
+					{ "time": 6.1, "name": "item_ufo_2" },
+					{ "time": 6.2333, "name": "item_ufo_3" },
+					{ "time": 6.3333, "name": "item_ufo_1" },
+					{ "time": 6.4333, "name": "item_ufo_2" },
+					{ "time": 6.5667, "name": "item_ufo_3" },
+					{ "time": 6.6667, "name": "item_ufo_1" },
+					{ "time": 6.7667, "name": "item_ufo_2" },
+					{ "time": 6.9, "name": "item_ufo_3" },
+					{ "time": 7, "name": "item_ufo_1" },
+					{ "time": 7.1, "name": "item_ufo_2" },
+					{ "time": 7.2333, "name": "item_ufo_3" },
+					{ "time": 7.3333, "name": "item_ufo_1" },
+					{ "time": 7.4333, "name": "item_ufo_2" },
+					{ "time": 7.5667, "name": "item_ufo_3" },
+					{ "time": 7.6667, "name": "item_ufo_1" },
+					{ "time": 7.7667, "name": "item_ufo_2" }
+				]
+			}
+		},
+		"bones": {
+			"horizontal": {
+				"translate": [
+					{ "x": -945.1, "curve": "stepped" },
+					{ "time": 1.3333, "x": -945.1, "curve": "stepped" },
+					{ "time": 3, "x": -945.1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.3333, "x": -93.63, "curve": "stepped" },
+					{ "time": 5.0333, "x": -93.63, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 5.2667, "x": 181.41, "curve": "stepped" },
+					{ "time": 6.7667, "x": 181.41 }
+				]
+			},
+			"vert": {
+				"translate": [
+					{ "y": 503.27, "curve": 0.385, "c2": 0.5, "c3": 0.746 },
+					{ "time": 1.3333, "y": 286.75, "curve": "stepped" },
+					{ "time": 3, "y": 286.75, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.3333, "y": 307.23, "curve": "stepped" },
+					{ "time": 5.0333, "y": 307.23, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 5.2667, "y": 286.88, "curve": "stepped" },
+					{ "time": 6.7667, "y": 286.88, "curve": 0.385, "c2": 0.5, "c3": 0.746 },
+					{ "time": 7.8, "y": 503.27 }
+				]
+			},
+			"UFO": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3.6667, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5.6667, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 7, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 7.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 7.6667, "angle": -1.93, "curve": 0.443, "c3": 0.736, "c4": 0.46 },
+					{ "time": 7.8, "angle": -1.29 }
+				],
+				"translate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3.6667, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5.6667, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 7, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 7.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 7.6667, "y": 5.96, "curve": 0.443, "c3": 0.736, "c4": 0.46 },
+					{ "time": 7.8, "y": 4 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2, "curve": "stepped" },
+					{ "time": 2.6667, "curve": "stepped" },
+					{ "time": 3.3333, "curve": "stepped" },
+					{ "time": 4, "curve": "stepped" },
+					{ "time": 4.6667, "curve": "stepped" },
+					{ "time": 5.3333, "curve": "stepped" },
+					{ "time": 6, "curve": "stepped" },
+					{ "time": 6.6667, "curve": "stepped" },
+					{ "time": 7.3333 }
+				]
+			},
+			"rot": {
+				"rotate": [
+					{ "time": 3, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.3333, "angle": -16.66, "curve": "stepped" },
+					{ "time": 5.0333, "angle": -16.66, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 5.2667, "angle": -29.6 }
+				]
+			}
+		}
+	},
+	"scene_ufo_idle": {
+		"slots": {
+			"item_ufo_1": {
+				"attachment": [
+					{ "name": "item_ufo_1" },
+					{ "time": 0.1, "name": "item_ufo_2" },
+					{ "time": 0.2333, "name": "item_ufo_3" },
+					{ "time": 0.3333, "name": "item_ufo_1" },
+					{ "time": 0.4333, "name": "item_ufo_2" },
+					{ "time": 0.5667, "name": "item_ufo_3" },
+					{ "time": 0.6667, "name": "item_ufo_1" }
+				]
+			}
+		},
+		"bones": {
+			"UFO": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{}
+				]
+			},
+			"horizontal": {
+				"translate": [
+					{ "x": -945.1 }
+				]
+			},
+			"vert": {
+				"translate": [
+					{ "y": 286.75 }
+				]
+			}
+		}
+	},
+	"scene_ufo_in": {
+		"slots": {
+			"item_ufo_1": {
+				"attachment": [
+					{ "name": "item_ufo_1" },
+					{ "time": 0.1, "name": "item_ufo_2" },
+					{ "time": 0.2333, "name": "item_ufo_3" },
+					{ "time": 0.3333, "name": "item_ufo_1" },
+					{ "time": 0.4333, "name": "item_ufo_2" },
+					{ "time": 0.5667, "name": "item_ufo_3" },
+					{ "time": 0.6667, "name": "item_ufo_1" },
+					{ "time": 0.7667, "name": "item_ufo_2" },
+					{ "time": 0.9, "name": "item_ufo_3" },
+					{ "time": 1, "name": "item_ufo_1" },
+					{ "time": 1.1, "name": "item_ufo_2" },
+					{ "time": 1.2333, "name": "item_ufo_3" },
+					{ "time": 1.3333, "name": "item_ufo_1" }
+				]
+			}
+		},
+		"bones": {
+			"horizontal": {
+				"translate": [
+					{ "x": -945.1, "curve": "stepped" },
+					{ "time": 1.3333, "x": -945.1 }
+				]
+			},
+			"vert": {
+				"translate": [
+					{ "y": 503.27, "curve": 0.385, "c2": 0.5, "c3": 0.746 },
+					{ "time": 1.3333, "y": 286.75 }
+				]
+			},
+			"UFO": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"scene_ufo_out": {
+		"slots": {
+			"item_ufo_1": {
+				"attachment": [
+					{ "name": "item_ufo_1" },
+					{ "time": 0.1, "name": "item_ufo_2" },
+					{ "time": 0.2333, "name": "item_ufo_3" },
+					{ "time": 0.3333, "name": "item_ufo_1" },
+					{ "time": 0.4333, "name": "item_ufo_2" },
+					{ "time": 0.5667, "name": "item_ufo_3" },
+					{ "time": 0.6667, "name": "item_ufo_1" },
+					{ "time": 0.7667, "name": "item_ufo_2" },
+					{ "time": 0.9, "name": "item_ufo_3" },
+					{ "time": 1, "name": "item_ufo_1" },
+					{ "time": 1.1, "name": "item_ufo_2" },
+					{ "time": 1.2333, "name": "item_ufo_3" },
+					{ "time": 1.3333, "name": "item_ufo_1" },
+					{ "time": 1.4333, "name": "item_ufo_2" },
+					{ "time": 1.5667, "name": "item_ufo_3" },
+					{ "time": 1.6667, "name": "item_ufo_1" },
+					{ "time": 1.7667, "name": "item_ufo_2" },
+					{ "time": 1.9, "name": "item_ufo_3" },
+					{ "time": 2, "name": "item_ufo_1" },
+					{ "time": 2.1, "name": "item_ufo_2" },
+					{ "time": 2.2333, "name": "item_ufo_3" },
+					{ "time": 2.3333, "name": "item_ufo_1" },
+					{ "time": 2.4333, "name": "item_ufo_2" },
+					{ "time": 2.5667, "name": "item_ufo_3" },
+					{ "time": 2.6667, "name": "item_ufo_1" },
+					{ "time": 2.7667, "name": "item_ufo_2" },
+					{ "time": 2.9, "name": "item_ufo_3" },
+					{ "time": 3, "name": "item_ufo_1" },
+					{ "time": 3.1, "name": "item_ufo_2" },
+					{ "time": 3.2333, "name": "item_ufo_3" },
+					{ "time": 3.3333, "name": "item_ufo_1" },
+					{ "time": 3.4333, "name": "item_ufo_2" },
+					{ "time": 3.5667, "name": "item_ufo_3" },
+					{ "time": 3.6667, "name": "item_ufo_1" },
+					{ "time": 3.7667, "name": "item_ufo_2" },
+					{ "time": 3.9, "name": "item_ufo_3" },
+					{ "time": 4, "name": "item_ufo_1" },
+					{ "time": 4.1, "name": "item_ufo_2" },
+					{ "time": 4.2333, "name": "item_ufo_3" },
+					{ "time": 4.3333, "name": "item_ufo_1" },
+					{ "time": 4.4333, "name": "item_ufo_2" },
+					{ "time": 4.5667, "name": "item_ufo_3" },
+					{ "time": 4.6667, "name": "item_ufo_1" },
+					{ "time": 4.7667, "name": "item_ufo_2" },
+					{ "time": 4.9, "name": "item_ufo_3" },
+					{ "time": 5, "name": "item_ufo_1" },
+					{ "time": 5.1, "name": "item_ufo_2" },
+					{ "time": 5.2333, "name": "item_ufo_3" },
+					{ "time": 5.3333, "name": "item_ufo_1" },
+					{ "time": 5.4333, "name": "item_ufo_2" },
+					{ "time": 5.5667, "name": "item_ufo_3" },
+					{ "time": 5.6667, "name": "item_ufo_1" },
+					{ "time": 5.7667, "name": "item_ufo_2" },
+					{ "time": 5.9, "name": "item_ufo_3" },
+					{ "time": 6, "name": "item_ufo_1" },
+					{ "time": 6.1, "name": "item_ufo_2" },
+					{ "time": 6.2333, "name": "item_ufo_3" },
+					{ "time": 6.3333, "name": "item_ufo_1" },
+					{ "time": 6.4333, "name": "item_ufo_2" }
+				]
+			}
+		},
+		"bones": {
+			"horizontal": {
+				"translate": [
+					{ "x": -945.1, "curve": "stepped" },
+					{ "time": 1.6667, "x": -945.1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 2, "x": -93.63, "curve": "stepped" },
+					{ "time": 3.7, "x": -93.63, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.9333, "x": 181.41, "curve": "stepped" },
+					{ "time": 5.4333, "x": 181.41 }
+				]
+			},
+			"vert": {
+				"translate": [
+					{ "y": 286.75, "curve": "stepped" },
+					{ "time": 1.6667, "y": 286.75, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 2, "y": 307.23, "curve": "stepped" },
+					{ "time": 3.7, "y": 307.23, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.9333, "y": 286.88, "curve": "stepped" },
+					{ "time": 5.4333, "y": 286.88, "curve": 0.385, "c2": 0.5, "c3": 0.746 },
+					{ "time": 6.4667, "y": 503.27 }
+				]
+			},
+			"UFO": {
+				"rotate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3.6667, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.3333, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5.6667, "angle": -1.93, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6.3333, "angle": -1.93, "curve": 0.443, "c3": 0.736, "c4": 0.46 },
+					{ "time": 6.4667, "angle": -1.29 }
+				],
+				"translate": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 2.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 3.6667, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.3333, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 4.6667, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5.3333, "curve": 0.459, "c3": 0.528 },
+					{ "time": 5.6667, "y": 5.96, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6, "curve": 0.459, "c3": 0.528 },
+					{ "time": 6.3333, "y": 5.96, "curve": 0.443, "c3": 0.736, "c4": 0.46 },
+					{ "time": 6.4667, "y": 4 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2, "curve": "stepped" },
+					{ "time": 2.6667, "curve": "stepped" },
+					{ "time": 3.3333, "curve": "stepped" },
+					{ "time": 4, "curve": "stepped" },
+					{ "time": 4.6667, "curve": "stepped" },
+					{ "time": 5.3333, "curve": "stepped" },
+					{ "time": 6 }
+				]
+			},
+			"rot": {
+				"rotate": [
+					{ "time": 1.6667, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 2, "angle": -16.66, "curve": "stepped" },
+					{ "time": 3.7, "angle": -16.66, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.9333, "angle": -29.6 }
+				]
+			}
+		}
+	}
+}
+}

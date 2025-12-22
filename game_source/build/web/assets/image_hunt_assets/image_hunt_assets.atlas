@@ -1,0 +1,132 @@
+
+image_hunt_assets_0.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bench
+  rotate: false
+  xy: 2, 864
+  size: 297, 153
+  orig: 301, 153
+  offset: 4, 0
+  index: -1
+clipboard
+  rotate: true
+  xy: 2, 2
+  size: 859, 201
+  orig: 859, 201
+  offset: 0, 0
+  index: -1
+clipboard_basketball
+  rotate: false
+  xy: 370, 551
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+clipboard_bird
+  rotate: false
+  xy: 302, 551
+  size: 65, 57
+  orig: 65, 57
+  offset: 0, 0
+  index: -1
+clipboard_broccoli
+  rotate: true
+  xy: 206, 503
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+clipboard_car
+  rotate: false
+  xy: 206, 103
+  size: 84, 38
+  orig: 84, 38
+  offset: 0, 0
+  index: -1
+clipboard_cigarette
+  rotate: true
+  xy: 454, 79
+  size: 68, 48
+  orig: 68, 48
+  offset: 0, 0
+  index: -1
+clipboard_cold_air
+  rotate: false
+  xy: 206, 245
+  size: 78, 61
+  orig: 78, 61
+  offset: 0, 0
+  index: -1
+clipboard_duck
+  rotate: true
+  xy: 206, 434
+  size: 66, 68
+  orig: 66, 68
+  offset: 0, 0
+  index: -1
+clipboard_exercise
+  rotate: false
+  xy: 206, 309
+  size: 73, 62
+  orig: 73, 62
+  offset: 0, 0
+  index: -1
+clipboard_fire
+  rotate: true
+  xy: 206, 566
+  size: 57, 65
+  orig: 57, 65
+  offset: 0, 0
+  index: -1
+clipboard_goldfish
+  rotate: false
+  xy: 206, 374
+  size: 70, 57
+  orig: 70, 57
+  offset: 0, 0
+  index: -1
+clipboard_perfume
+  rotate: false
+  xy: 454, 150
+  size: 47, 61
+  orig: 47, 61
+  offset: 0, 0
+  index: -1
+clipboard_pollution
+  rotate: false
+  xy: 454, 2
+  size: 56, 74
+  orig: 56, 74
+  offset: 0, 0
+  index: -1
+clipboard_slot_known
+  rotate: true
+  xy: 206, 2
+  size: 98, 85
+  orig: 98, 85
+  offset: 0, 0
+  index: -1
+clipboard_slot_unknown
+  rotate: true
+  xy: 206, 144
+  size: 98, 83
+  orig: 98, 83
+  offset: 0, 0
+  index: -1
+clipboard_ufo
+  rotate: true
+  xy: 454, 214
+  size: 79, 43
+  orig: 79, 43
+  offset: 0, 0
+  index: -1
+park_popup
+  rotate: true
+  xy: 302, 2
+  size: 546, 149
+  orig: 546, 149
+  offset: 0, 0
+  index: -1

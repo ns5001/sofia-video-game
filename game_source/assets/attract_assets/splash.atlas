@@ -1,0 +1,132 @@
+
+splash.png
+size: 1916,1179
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue
+  rotate: false
+  xy: 419, 72
+  size: 177, 176
+  orig: 177, 176
+  offset: 0, 0
+  index: -1
+green
+  rotate: false
+  xy: 598, 72
+  size: 177, 176
+  orig: 177, 176
+  offset: 0, 0
+  index: -1
+items
+  rotate: false
+  xy: 2, 484
+  size: 1255, 693
+  orig: 1282, 698
+  offset: 7, 5
+  index: -1
+logo
+  rotate: false
+  xy: 419, 250
+  size: 421, 93
+  orig: 421, 93
+  offset: 0, 0
+  index: -1
+orange
+  rotate: false
+  xy: 848, 242
+  size: 177, 176
+  orig: 177, 176
+  offset: 0, 0
+  index: -1
+purple
+  rotate: false
+  xy: 1027, 242
+  size: 177, 176
+  orig: 177, 176
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 956, 65
+  size: 176, 175
+  orig: 176, 175
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 1259, 512
+  size: 652, 665
+  orig: 652, 667
+  offset: 0, 1
+  index: -1
+shiney_1
+  rotate: false
+  xy: 1259, 9
+  size: 504, 501
+  orig: 506, 501
+  offset: 1, 0
+  index: -1
+shiney_2
+  rotate: false
+  xy: 2, 2
+  size: 415, 480
+  orig: 416, 480
+  offset: 0, 0
+  index: -1
+sofia_a
+  rotate: false
+  xy: 1765, 224
+  size: 136, 140
+  orig: 136, 141
+  offset: 0, 0
+  index: -1
+sofia_f
+  rotate: false
+  xy: 1134, 99
+  size: 103, 141
+  orig: 103, 141
+  offset: 0, 0
+  index: -1
+sofia_i
+  rotate: false
+  xy: 1206, 278
+  size: 47, 140
+  orig: 48, 141
+  offset: 0, 0
+  index: -1
+sofia_o
+  rotate: false
+  xy: 1765, 366
+  size: 149, 144
+  orig: 150, 145
+  offset: 0, 0
+  index: -1
+sofia_s
+  rotate: false
+  xy: 1765, 78
+  size: 110, 144
+  orig: 110, 145
+  offset: 0, 0
+  index: -1
+subtitle
+  rotate: false
+  xy: 419, 345
+  size: 427, 137
+  orig: 427, 137
+  offset: 0, 0
+  index: -1
+tap
+  rotate: false
+  xy: 848, 420
+  size: 381, 62
+  orig: 381, 62
+  offset: 0, 0
+  index: -1
+yellow
+  rotate: false
+  xy: 777, 64
+  size: 177, 176
+  orig: 177, 176
+  offset: 0, 0
+  index: -1

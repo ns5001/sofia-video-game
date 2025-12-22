@@ -1,0 +1,236 @@
+{
+"skeleton": {
+	"hash": "XmtaML7YWBUTh3ri+Pyvf9KXOBc",
+	"spine": "3.8.72",
+	"x": 368.9,
+	"y": 297.2,
+	"width": 887.92,
+	"height": 456,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "trees", "parent": "root", "x": 825.78, "y": 292.67 },
+	{ "name": "tree_2", "parent": "trees", "length": 235.15, "rotation": 87.95, "x": -314.14, "y": 20.38 },
+	{ "name": "tree_3", "parent": "trees", "length": 179.89, "rotation": 88.85, "x": -171.46, "y": 17.98 },
+	{ "name": "tree_4", "parent": "trees", "length": 158.27, "rotation": 90, "x": -71.94, "y": 50.36 },
+	{ "name": "tree_5", "parent": "trees", "length": 243.4, "rotation": 90.28, "x": 92.32, "y": 19.18 },
+	{ "name": "tree_6", "parent": "trees", "length": 173.87, "rotation": 89.21, "x": 214.62, "y": 44.36 },
+	{ "name": "tree_7", "parent": "trees", "length": 149.88, "rotation": 90, "x": 316.54, "y": 28.78 },
+	{ "name": "tree_8_leaves", "parent": "tree_2", "x": 281.97, "y": -0.73 },
+	{ "name": "tree_9_leaves", "parent": "tree_3", "x": 260.49, "y": -12.78 },
+	{ "name": "tree_10_leaves", "parent": "tree_4", "x": 224.21, "y": 3.6 },
+	{ "name": "tree_11_leaves", "parent": "tree_5", "x": 303.54, "y": 38.07 },
+	{ "name": "tree_12_leaves", "parent": "tree_6", "x": 221.27, "y": -46.11 },
+	{ "name": "grass", "parent": "trees", "x": 1.2, "y": 38.37 }
+],
+"slots": [
+	{ "name": "grass_5", "bone": "grass", "attachment": "grass_5" },
+	{ "name": "leaves_5_back", "bone": "tree_12_leaves", "attachment": "leaves_5_back" },
+	{ "name": "trunk_6", "bone": "tree_7", "attachment": "trunk_6" },
+	{ "name": "trunk_5", "bone": "tree_6", "attachment": "trunk_5" },
+	{ "name": "leaves_5_top", "bone": "tree_12_leaves", "attachment": "leaves_5_top" },
+	{ "name": "grass_3", "bone": "grass", "attachment": "grass_3" },
+	{ "name": "leaves_3_bottom", "bone": "tree_10_leaves", "attachment": "leaves_3_bottom" },
+	{ "name": "trunk_3", "bone": "tree_4", "attachment": "trunk_3" },
+	{ "name": "leaves_3_top", "bone": "tree_10_leaves", "attachment": "leaves_3_top" },
+	{ "name": "leaves_1_bottom", "bone": "tree_8_leaves", "attachment": "leaves_1_bottom" },
+	{ "name": "trunk_1", "bone": "tree_2", "attachment": "trunk_1" },
+	{ "name": "grass_1", "bone": "grass", "attachment": "grass_1" },
+	{ "name": "leaves_1_top", "bone": "tree_8_leaves", "attachment": "leaves_1_top" },
+	{ "name": "leaves_4_back", "bone": "tree_11_leaves", "attachment": "leaves_4_back" },
+	{ "name": "trunk_4", "bone": "tree_5", "attachment": "trunk_4" },
+	{ "name": "leaves_4_top", "bone": "tree_11_leaves", "attachment": "leaves_4_top" },
+	{ "name": "leaves_4_top2", "bone": "tree_11_leaves", "attachment": "leaves_4_top2" },
+	{ "name": "leaves_2_back", "bone": "tree_9_leaves", "attachment": "leaves_2_back" },
+	{ "name": "trunk_2", "bone": "tree_3", "attachment": "trunk_2" },
+	{ "name": "leaves_2_top", "bone": "tree_9_leaves", "attachment": "leaves_2_top" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"trunk_2": {
+				"trunk_2": { "x": 91.49, "y": 3.51, "rotation": -88.85, "width": 80, "height": 206 }
+			},
+			"leaves_2_top": {
+				"leaves_2_top": { "x": -13.63, "y": -0.61, "rotation": -88.85, "width": 176, "height": 192 }
+			},
+			"grass_1": {
+				"grass_1": { "x": -305.83, "y": -19.84, "width": 135, "height": 24 }
+			},
+			"leaves_4_back": {
+				"leaves_4_back": { "x": -64.11, "y": -20.8, "rotation": -90.28, "width": 192, "height": 180 }
+			},
+			"leaves_2_back": {
+				"leaves_2_back": { "x": 5.49, "y": 18.77, "rotation": -88.85, "width": 264, "height": 279 }
+			},
+			"trunk_3": {
+				"trunk_3": { "x": 75.67, "y": -5.81, "rotation": -90, "width": 90, "height": 189 }
+			},
+			"leaves_1_top": {
+				"leaves_1_top": { "x": 1.8, "y": 16.36, "rotation": -87.95, "width": 187, "height": 182 }
+			},
+			"trunk_1": {
+				"trunk_1": { "x": 123.41, "y": -5.1, "rotation": -87.95, "width": 109, "height": 272 }
+			},
+			"leaves_3_top": {
+				"leaves_3_top": { "x": -43.04, "y": -15.4, "rotation": -90, "width": 146, "height": 128 }
+			},
+			"leaves_4_top": {
+				"leaves_4_top": { "x": 15.59, "y": 18.81, "rotation": -90.28, "width": 410, "height": 245 }
+			},
+			"leaves_5_top": {
+				"leaves_5_top": { "x": 15.89, "y": 11.63, "rotation": -89.21, "width": 357, "height": 279 }
+			},
+			"trunk_4": {
+				"trunk_4": { "x": 123.35, "y": 1.85, "rotation": -90.28, "width": 124, "height": 272 }
+			},
+			"trunk_5": {
+				"trunk_5": { "x": 93.67, "y": 0.55, "rotation": -89.21, "width": 83, "height": 211 }
+			},
+			"trunk_6": {
+				"trunk_6": { "x": 71.25, "y": 2.67, "rotation": -90, "width": 84, "height": 191 }
+			},
+			"grass_5": {
+				"grass_5": { "x": 244.17, "y": 6.66, "width": 33, "height": 17 }
+			},
+			"grass_3": {
+				"grass_3": { "x": -109.83, "y": 12.66, "width": 33, "height": 17 }
+			},
+			"leaves_5_back": {
+				"leaves_5_back": { "x": 1.41, "y": 46.44, "rotation": -89.21, "width": 427, "height": 251 }
+			},
+			"leaves_4_top2": {
+				"leaves_4_top2": { "x": -57.67, "y": 68.67, "rotation": -90.28, "width": 57, "height": 62 }
+			},
+			"leaves_3_bottom": {
+				"leaves_3_bottom": { "x": 5.46, "y": -24.4, "rotation": -90, "width": 344, "height": 275 }
+			},
+			"leaves_1_bottom": {
+				"leaves_1_bottom": { "x": 10.4, "y": -0.34, "rotation": -87.95, "width": 309, "height": 234 }
+			}
+		}
+	}
+],
+"animations": {
+	"none": {},
+	"scene_trees_all": {
+		"bones": {
+			"tree_2": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.0667, "x": 2.78, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.1667, "x": -1.58, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2667, "x": 1.88, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "x": -0.82, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.4667, "x": 1.93, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.6 }
+				]
+			},
+			"tree_3": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.0667, "x": 2.78, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.1667, "x": -1.58, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2667, "x": 1.88, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "x": -0.82, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.4667, "x": 1.93, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.6 }
+				]
+			},
+			"tree_4": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.0667, "x": 2.78, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.1667, "x": -1.58, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2667, "x": 1.88, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "x": -0.82, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.4667, "x": 1.93, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.6 }
+				]
+			},
+			"tree_5": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.0667, "x": 2.78, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.1667, "x": -1.58, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2667, "x": 1.88, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "x": -0.82, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.4667, "x": 1.93, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.6 }
+				]
+			},
+			"tree_6": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.0667, "x": 2.78, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.1667, "x": -1.58, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2667, "x": 1.88, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "x": -0.82, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.4667, "x": 1.93, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.6 }
+				]
+			},
+			"tree_7": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.0667, "x": 2.78, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.1667, "x": -1.58, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.2667, "x": 1.88, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.3667, "x": -0.82, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.4667, "x": 1.93, "curve": 0.25, "c3": 0.236 },
+					{ "time": 0.6 }
+				]
+			}
+		}
+	},
+	"scene_trees_all_idle": {
+		"bones": {
+			"tree_2": {
+				"shear": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.5, "x": -0.58, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667 }
+				]
+			},
+			"tree_3": {
+				"shear": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.6, "x": -0.58, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667 }
+				]
+			},
+			"tree_4": {
+				"shear": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.7, "x": -0.58, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667 }
+				]
+			},
+			"tree_5": {
+				"shear": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.8, "x": -0.58, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667 }
+				]
+			},
+			"tree_6": {
+				"shear": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.9, "x": -0.58, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667 }
+				]
+			},
+			"tree_7": {
+				"shear": [
+					{ "curve": 0.459, "c3": 0.528 },
+					{ "time": 0.9667, "x": -0.58, "curve": 0.459, "c3": 0.528 },
+					{ "time": 1.6667 }
+				]
+			}
+		}
+	}
+}
+}

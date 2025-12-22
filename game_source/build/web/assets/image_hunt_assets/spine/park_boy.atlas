@@ -1,0 +1,125 @@
+
+park_boy.png
+size: 62,193
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boy_ball
+  rotate: false
+  xy: 35, 52
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+boy_ball_shadow
+  rotate: true
+  xy: 56, 176
+  size: 15, 4
+  orig: 15, 4
+  offset: 0, 0
+  index: -1
+boy_ball_spin_1
+  rotate: false
+  xy: 2, 54
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+boy_ball_spin_2
+  rotate: false
+  xy: 2, 28
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+boy_ball_spin_3
+  rotate: true
+  xy: 35, 19
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+boy_ball_spin_4
+  rotate: false
+  xy: 2, 2
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+boy_chest
+  rotate: true
+  xy: 2, 122
+  size: 28, 35
+  orig: 28, 35
+  offset: 0, 0
+  index: -1
+boy_hand_1
+  rotate: false
+  xy: 38, 78
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+boy_hand_2
+  rotate: true
+  xy: 34, 5
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+boy_head
+  rotate: false
+  xy: 2, 89
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+boy_legs
+  rotate: false
+  xy: 2, 152
+  size: 52, 39
+  orig: 52, 39
+  offset: 0, 0
+  index: -1
+boy_neck
+  rotate: false
+  xy: 39, 113
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: -1
+boy_pupils
+  rotate: true
+  xy: 50, 5
+  size: 12, 7
+  orig: 12, 7
+  offset: 0, 0
+  index: -1
+boy_shadow
+  rotate: false
+  xy: 2, 80
+  size: 32, 7
+  orig: 32, 7
+  offset: 0, 0
+  index: -1
+boy_shoulder_1
+  rotate: true
+  xy: 38, 102
+  size: 9, 22
+  orig: 9, 22
+  offset: 0, 0
+  index: -1
+boy_shoulder_11
+  rotate: true
+  xy: 39, 137
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+boy_wrist_1
+  rotate: true
+  xy: 38, 92
+  size: 8, 16
+  orig: 8, 16
+  offset: 0, 0
+  index: -1

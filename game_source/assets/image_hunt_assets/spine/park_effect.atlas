@@ -1,0 +1,48 @@
+
+park_effect.png
+size: 198,276
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+burst_1
+  rotate: false
+  xy: 2, 10
+  size: 68, 64
+  orig: 69, 65
+  offset: 0, 0
+  index: -1
+burst_2
+  rotate: false
+  xy: 108, 189
+  size: 88, 85
+  orig: 89, 87
+  offset: 0, 1
+  index: -1
+burst_3
+  rotate: false
+  xy: 2, 76
+  size: 95, 94
+  orig: 95, 95
+  offset: 0, 1
+  index: -1
+burst_4
+  rotate: false
+  xy: 2, 172
+  size: 104, 102
+  orig: 104, 102
+  offset: 0, 0
+  index: -1
+clipboard_slot_known
+  rotate: false
+  xy: 99, 86
+  size: 97, 84
+  orig: 98, 85
+  offset: 1, 1
+  index: -1
+clipboard_slot_unknown
+  rotate: false
+  xy: 99, 2
+  size: 97, 82
+  orig: 98, 83
+  offset: 1, 0
+  index: -1

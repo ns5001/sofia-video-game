@@ -1,0 +1,27 @@
+
+park_ufo.png
+size: 245,47
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+item_ufo_1
+  rotate: false
+  xy: 2, 2
+  size: 79, 43
+  orig: 79, 43
+  offset: 0, 0
+  index: -1
+item_ufo_2
+  rotate: false
+  xy: 83, 2
+  size: 79, 43
+  orig: 79, 43
+  offset: 0, 0
+  index: -1
+item_ufo_3
+  rotate: false
+  xy: 164, 2
+  size: 79, 43
+  orig: 79, 43
+  offset: 0, 0
+  index: -1

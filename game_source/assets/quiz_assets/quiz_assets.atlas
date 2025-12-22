@@ -1,0 +1,117 @@
+
+quiz_assets_0.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_effect
+  rotate: false
+  xy: 2, 2
+  size: 504, 500
+  orig: 504, 500
+  offset: 0, 0
+  index: -1
+btn_quiz_1
+  rotate: false
+  xy: 509, 2
+  size: 399, 217
+  orig: 399, 217
+  offset: 0, 0
+  index: -1
+btn_quiz_1_correct
+  rotate: false
+  xy: 509, 222
+  size: 399, 217
+  orig: 399, 217
+  offset: 0, 0
+  index: -1
+btn_quiz_1_false
+  rotate: false
+  xy: 509, 442
+  size: 399, 217
+  orig: 399, 217
+  offset: 0, 0
+  index: -1
+btn_quiz_2
+  rotate: false
+  xy: 691, 662
+  size: 219, 214
+  orig: 219, 214
+  offset: 0, 0
+  index: -1
+btn_quiz_3_notsure
+  rotate: true
+  xy: 355, 662
+  size: 358, 333
+  orig: 358, 333
+  offset: 0, 0
+  index: -1
+btn_quiz_3_scientist
+  rotate: true
+  xy: 2, 662
+  size: 358, 350
+  orig: 358, 350
+  offset: 0, 0
+  index: -1
+
+quiz_assets_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_quiz_1_incorrect
+  rotate: false
+  xy: 2, 2
+  size: 399, 217
+  orig: 399, 217
+  offset: 0, 0
+  index: -1
+btn_quiz_1_true
+  rotate: false
+  xy: 404, 2
+  size: 399, 217
+  orig: 399, 217
+  offset: 0, 0
+  index: -1
+btn_quiz_2_avoid_cigarette
+  rotate: true
+  xy: 806, 2
+  size: 219, 214
+  orig: 219, 214
+  offset: 0, 0
+  index: -1
+btn_quiz_2_correct
+  rotate: true
+  xy: 2, 585
+  size: 219, 214
+  orig: 219, 214
+  offset: 0, 0
+  index: -1
+btn_quiz_2_duck
+  rotate: false
+  xy: 2, 807
+  size: 219, 214
+  orig: 219, 214
+  offset: 0, 0
+  index: -1
+btn_quiz_2_incorrect
+  rotate: true
+  xy: 219, 585
+  size: 219, 214
+  orig: 219, 214
+  offset: 0, 0
+  index: -1
+btn_quiz_2_inhaler
+  rotate: false
+  xy: 224, 807
+  size: 219, 214
+  orig: 219, 214
+  offset: 0, 0
+  index: -1
+btn_quiz_3_sofia
+  rotate: true
+  xy: 2, 224
+  size: 358, 333
+  orig: 358, 333
+  offset: 0, 0
+  index: -1

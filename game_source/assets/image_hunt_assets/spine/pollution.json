@@ -1,0 +1,47 @@
+{
+"skeleton": {
+	"hash": "KluOMITc41VySPjZ5pqmOrIRA40=",
+	"spine": "3.8.75",
+	"x": 13.75,
+	"y": 507.95,
+	"width": 186,
+	"height": 187,
+	"images": "./park_images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "pollution", "parent": "root", "x": 105.49, "y": 532.23 }
+],
+"slots": [
+	{ "name": "pollution_1", "bone": "pollution", "attachment": "pollution_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"pollution_1": {
+				"pollution_1": { "x": 1.25, "y": 69.23, "width": 186, "height": 187 },
+				"pollution_2": { "x": -0.75, "y": 65.73, "width": 180, "height": 182 },
+				"pollution_3": { "x": 1.25, "y": 66.23, "width": 184, "height": 185 },
+				"pollution_4": { "x": 1.75, "y": 66.23, "width": 183, "height": 183 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"pollution_1": {
+				"attachment": [
+					{ "name": "pollution_1" },
+					{ "time": 0.1667, "name": "pollution_2" },
+					{ "time": 0.3333, "name": "pollution_3" },
+					{ "time": 0.5, "name": "pollution_4" },
+					{ "time": 0.6667, "name": "pollution_1" }
+				]
+			}
+		}
+	}
+}
+}

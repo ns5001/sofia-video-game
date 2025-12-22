@@ -1,0 +1,167 @@
+
+cigarette.png
+size: 173,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cigarette_eyes
+  rotate: false
+  xy: 115, 58
+  size: 20, 5
+  orig: 20, 5
+  offset: 0, 0
+  index: -1
+cigarette_eyes_blink
+  rotate: false
+  xy: 2, 2
+  size: 25, 3
+  orig: 25, 3
+  offset: 0, 0
+  index: -1
+cigarette_glasses
+  rotate: false
+  xy: 115, 35
+  size: 36, 13
+  orig: 36, 13
+  offset: 0, 0
+  index: -1
+cigarette_hand
+  rotate: false
+  xy: 113, 65
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+cigarette_head
+  rotate: false
+  xy: 118, 211
+  size: 53, 56
+  orig: 53, 56
+  offset: 0, 0
+  index: -1
+cigarette_jacket_b
+  rotate: false
+  xy: 74, 35
+  size: 39, 25
+  orig: 39, 26
+  offset: 0, 0
+  index: -1
+cigarette_jacket_f
+  rotate: false
+  xy: 2, 165
+  size: 70, 102
+  orig: 74, 102
+  offset: 0, 0
+  index: -1
+cigarette_leg_b
+  rotate: false
+  xy: 74, 155
+  size: 42, 112
+  orig: 42, 112
+  offset: 0, 0
+  index: -1
+cigarette_leg_f
+  rotate: false
+  xy: 2, 45
+  size: 40, 118
+  orig: 40, 118
+  offset: 0, 0
+  index: -1
+cigarette_mouth_smoke
+  rotate: false
+  xy: 43, 35
+  size: 15, 8
+  orig: 15, 8
+  offset: 0, 0
+  index: -1
+cigarette_neck
+  rotate: false
+  xy: 74, 62
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+cigarette_pelvis
+  rotate: false
+  xy: 118, 177
+  size: 53, 32
+  orig: 53, 32
+  offset: 0, 0
+  index: -1
+cigarette_shadow
+  rotate: false
+  xy: 43, 4
+  size: 105, 29
+  orig: 106, 29
+  offset: 1, 0
+  index: -1
+cigarette_shoe_b
+  rotate: false
+  xy: 118, 145
+  size: 45, 30
+  orig: 45, 30
+  offset: 0, 0
+  index: -1
+cigarette_shoe_f
+  rotate: false
+  xy: 2, 7
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+cigarette_shoulder_b
+  rotate: false
+  xy: 44, 57
+  size: 28, 47
+  orig: 28, 47
+  offset: 0, 0
+  index: -1
+cigarette_shoulder_f
+  rotate: false
+  xy: 44, 106
+  size: 28, 57
+  orig: 28, 57
+  offset: 0, 0
+  index: -1
+cigarette_smoke_1
+  rotate: false
+  xy: 151, 50
+  size: 11, 44
+  orig: 11, 44
+  offset: 0, 0
+  index: -1
+cigarette_smoke_2
+  rotate: false
+  xy: 142, 96
+  size: 12, 47
+  orig: 13, 47
+  offset: 0, 0
+  index: -1
+cigarette_smoke_3
+  rotate: false
+  xy: 137, 50
+  size: 12, 44
+  orig: 12, 45
+  offset: 0, 1
+  index: -1
+cigarette_smoke_4
+  rotate: false
+  xy: 156, 96
+  size: 12, 47
+  orig: 12, 48
+  offset: 0, 1
+  index: -1
+cigarette_wrist
+  rotate: false
+  xy: 113, 98
+  size: 27, 45
+  orig: 33, 48
+  offset: 6, 0
+  index: -1
+cigarette_wrist_f
+  rotate: false
+  xy: 74, 101
+  size: 37, 52
+  orig: 37, 53
+  offset: 0, 1
+  index: -1

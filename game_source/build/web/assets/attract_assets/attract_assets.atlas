@@ -1,0 +1,48 @@
+
+attract_assets_0.png
+size: 256,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_check
+  rotate: false
+  xy: 130, 551
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+btn_check_gray
+  rotate: false
+  xy: 2, 678
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+btn_help
+  rotate: false
+  xy: 129, 678
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+btn_home
+  rotate: true
+  xy: 2, 551
+  size: 124, 125
+  orig: 124, 125
+  offset: 0, 0
+  index: -1
+btn_x
+  rotate: false
+  xy: 2, 805
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+quit_popup
+  rotate: true
+  xy: 2, 2
+  size: 546, 149
+  orig: 546, 149
+  offset: 0, 0
+  index: -1

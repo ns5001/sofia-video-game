@@ -1,0 +1,76 @@
+
+park_fire.png
+size: 50,249
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire_1
+  rotate: true
+  xy: 2, 2
+  size: 32, 45
+  orig: 32, 45
+  offset: 0, 0
+  index: -1
+fire_2
+  rotate: true
+  xy: 2, 102
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+fire_3
+  rotate: true
+  xy: 2, 135
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1
+fire_4
+  rotate: true
+  xy: 2, 69
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+fire_5
+  rotate: true
+  xy: 2, 36
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+fire_log_back
+  rotate: false
+  xy: 2, 198
+  size: 45, 25
+  orig: 45, 25
+  offset: 0, 0
+  index: -1
+fire_log_front
+  rotate: false
+  xy: 2, 225
+  size: 45, 15
+  orig: 45, 15
+  offset: 0, 0
+  index: -1
+fire_smoke
+  rotate: true
+  xy: 2, 167
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+fire_spark_1
+  rotate: true
+  xy: 2, 242
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+fire_spark_2
+  rotate: true
+  xy: 12, 242
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1

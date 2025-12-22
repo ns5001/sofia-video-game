@@ -1,0 +1,41 @@
+
+duck.png
+size: 57,185
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duck_1
+  rotate: false
+  xy: 2, 128
+  size: 53, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+duck_2
+  rotate: false
+  xy: 2, 15
+  size: 52, 54
+  orig: 52, 54
+  offset: 0, 0
+  index: -1
+duck_4
+  rotate: false
+  xy: 2, 15
+  size: 52, 54
+  orig: 52, 54
+  offset: 0, 0
+  index: -1
+duck_3
+  rotate: false
+  xy: 2, 71
+  size: 52, 55
+  orig: 53, 55
+  offset: 0, 0
+  index: -1
+duck_shadow
+  rotate: false
+  xy: 2, 2
+  size: 34, 11
+  orig: 34, 12
+  offset: 0, 1
+  index: -1

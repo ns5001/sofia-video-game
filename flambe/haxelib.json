@@ -1,0 +1,26 @@
+{
+  "contributors": [
+    "Aduros"
+  ],
+  "dependencies": {
+    "air3": "",
+    "hxsl": "2.0.5"
+  },
+  "description": "Flambe is a fast, expressive, and cross-platform engine for HTML5 and Flash games.",
+  "license": "MIT",
+  "name": "flambe",
+  "releasenote": "See https://github.com/aduros/flambe/wiki/Changes",
+  "tags": [
+    "android",
+    "cross",
+    "flash",
+    "game",
+    "html5",
+    "ios",
+    "javascript",
+    "js",
+    "nodejs"
+  ],
+  "url": "https://github.com/aduros/flambe",
+  "version": "4.1.0"
+}

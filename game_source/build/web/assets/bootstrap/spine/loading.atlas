@@ -1,0 +1,34 @@
+
+loading.png
+size: 1889,1099
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loading_bg
+  rotate: false
+  xy: 2, 377
+  size: 1281, 720
+  orig: 1281, 720
+  offset: 0, 0
+  index: -1
+loading_lungs
+  rotate: false
+  xy: 1285, 517
+  size: 492, 580
+  orig: 492, 580
+  offset: 0, 0
+  index: -1
+lung_left
+  rotate: false
+  xy: 1587, 2
+  size: 300, 513
+  orig: 300, 513
+  offset: 0, 0
+  index: -1
+lung_right
+  rotate: false
+  xy: 1285, 2
+  size: 300, 513
+  orig: 300, 513
+  offset: 0, 0
+  index: -1

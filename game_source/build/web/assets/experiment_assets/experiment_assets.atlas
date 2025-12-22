@@ -1,0 +1,41 @@
+
+experiment_assets_0.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clipboard_full
+  rotate: false
+  xy: 551, 2
+  size: 443, 544
+  orig: 443, 544
+  offset: 0, 0
+  index: -1
+lab_popup
+  rotate: false
+  xy: 2, 2
+  size: 546, 149
+  orig: 546, 149
+  offset: 0, 0
+  index: -1
+little_check
+  rotate: false
+  xy: 2, 154
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+little_question
+  rotate: false
+  xy: 2, 191
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+little_x
+  rotate: true
+  xy: 2, 549
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1

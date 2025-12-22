@@ -1,0 +1,60 @@
+{
+"skeleton": {
+	"hash": "qmvgQVvO3o/baAK5jTWnqyIcclE=",
+	"spine": "3.8.75",
+	"x": 625.27,
+	"y": -124.95,
+	"width": 107,
+	"height": 110,
+	"images": "./park_images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "duck", "parent": "root", "x": 676.32, "y": -115.59 }
+],
+"slots": [
+	{ "name": "duck_shadow", "bone": "duck", "attachment": "duck_shadow" },
+	{ "name": "duck_1", "bone": "duck", "attachment": "duck_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"duck_shadow": {
+				"duck_shadow": { "x": -2.68, "y": 2.65, "width": 67, "height": 24 }
+			},
+			"duck_1": {
+				"duck_1": { "x": 2.45, "y": 45.65, "width": 107, "height": 110 },
+				"duck_2": { "x": 1.82, "y": 46.65, "width": 104, "height": 108 },
+				"duck_3": { "x": 2.32, "y": 46.15, "width": 105, "height": 109 },
+				"duck_4": { "x": 1.82, "y": 46.65, "width": 104, "height": 108 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"duck_1": {
+				"attachment": [
+					{ "name": "duck_1" },
+					{ "time": 0.1667, "name": "duck_2" },
+					{ "time": 0.3333, "name": "duck_3" },
+					{ "time": 0.5, "name": "duck_4" },
+					{ "time": 0.6667, "name": "duck_1" }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"duck_1": {
+				"attachment": [
+					{ "name": "duck_1" }
+				]
+			}
+		}
+	}
+}
+}

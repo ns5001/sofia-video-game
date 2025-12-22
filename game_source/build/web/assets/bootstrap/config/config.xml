@@ -1,0 +1,15 @@
+<config>
+	
+	<!-- CODE UNLOCK -->
+	<unlockEnabled>true</unlockEnabled> <!-- Set whether or not to allow the use of the code unlock screen -->
+	<unlockCode>00000</unlockCode> <!-- Set the code unlock number here, should be less than 10 digits and you can use the number 0 -->
+
+	<!-- ACHIEVEMENTS -->
+	<achievements enabled="true"/>
+
+	<!-- LOCALIZATION -->
+    <localization>
+    	<region>en</region>
+    </localization>
+
+</config>

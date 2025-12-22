@@ -1,0 +1,27 @@
+
+park_clouds.png
+size: 727,61
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_1
+  rotate: false
+  xy: 548, 2
+  size: 177, 57
+  orig: 177, 57
+  offset: 0, 0
+  index: -1
+cloud_2
+  rotate: false
+  xy: 2, 8
+  size: 91, 25
+  orig: 91, 25
+  offset: 0, 0
+  index: -1
+clouds_buildings
+  rotate: false
+  xy: 2, 35
+  size: 544, 24
+  orig: 544, 24
+  offset: 0, 0
+  index: -1

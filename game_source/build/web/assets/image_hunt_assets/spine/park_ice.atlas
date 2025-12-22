@@ -1,0 +1,83 @@
+
+park_ice.png
+size: 773,465
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flake_1
+  rotate: false
+  xy: 26, 428
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1
+flake_2
+  rotate: false
+  xy: 2, 441
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+ice_mid_1
+  rotate: false
+  xy: 176, 408
+  size: 202, 55
+  orig: 202, 55
+  offset: 0, 0
+  index: -1
+ice_mid_2
+  rotate: false
+  xy: 2, 298
+  size: 443, 107
+  orig: 443, 107
+  offset: 0, 0
+  index: -1
+ice_mid_3
+  rotate: false
+  xy: 2, 159
+  size: 438, 137
+  orig: 438, 137
+  offset: 0, 0
+  index: -1
+ice_mid_4
+  rotate: true
+  xy: 619, 67
+  size: 269, 152
+  orig: 269, 152
+  offset: 0, 0
+  index: -1
+ice_mid_5
+  rotate: false
+  xy: 447, 194
+  size: 170, 142
+  orig: 170, 142
+  offset: 0, 0
+  index: -1
+ice_mid_6
+  rotate: false
+  xy: 488, 338
+  size: 162, 125
+  orig: 162, 125
+  offset: 0, 0
+  index: -1
+ice_mid_7
+  rotate: false
+  xy: 65, 417
+  size: 109, 46
+  orig: 109, 46
+  offset: 0, 0
+  index: -1
+ice_mid_9
+  rotate: false
+  xy: 380, 407
+  size: 106, 56
+  orig: 106, 56
+  offset: 0, 0
+  index: -1
+ice_mid_full
+  rotate: false
+  xy: 2, 2
+  size: 520, 155
+  orig: 520, 155
+  offset: 0, 0
+  index: -1

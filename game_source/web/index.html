@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Sofia Learns About Research</title>
+	    <script src="embed/jsembed.js"></script>
+		<script type="text/javascript" >
+			// Parameters configure jsembed itself.
+			var params = {
+				base: "",
+			 	api: "flambe", // supported custom apis are defined in jsembed. Defaults none.
+			 	scaletype: "fillto", // update window.canvasScale on window resize? Defaults true.
+			 	indexroot: "true", // use index url as path root? If false, uses domain root instead. Defaults false (uses domain root).
+			 	maxwidth: 1280, //The maximum width to scale the canvas to. Only works with fillto.
+			 	maxheight: 720, //The maximum height to scale the canvas to. Only works with fillto.
+			 	libs: ["flambe.js"] // array of libs to embed before trying to launch app. Defaults []
+			}
+			// Attributes will be set on the embed target for use by the app. "base" will be set as well.
+			var attr = {
+			};
+			jsembed.embed("flambe.js", "embedtarget", "1280", "720", params, attr);
+		</script>
+		<script type="text/javascript">
+			if (!('createImageBitmap' in window)) {
+			    window.createImageBitmap = async function(blob) {
+			        return new Promise((resolve,reject) => {
+									console.log("[index] TRYING TO LOAD IMAGE");
+
+			            let img = document.createElement('img');
+			            img.addEventListener('load', function() {
+										console.log("[index] IMAGE LOADED");
+										resolve(img);
+			            });
+			            img.src = "http://localhost:7000/assets/gameplay_universal/mask_test.png";//URL.createObjectURL(blob);
+							});
+			    }
+			}
+		</script>
+		<script language="JavaScript">
+			function trackFlashEvent(gameTitle,gameEvent,playEvent)	{ window.alert('tracking:' + gameTitle + gameEvent + playEvent); }
+		</script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178635229-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-178635229-1', {
+			  custom_map: {
+					dimension1: "screen",
+					dimension2: "word",
+					dimension3: "type",
+					dimension4: "number",
+					dimension5: "answer",
+					dimension6: "trigger",
+			  }
+		  });
+		</script>
+	</head>
+	<body style="padding: 0; margin: 0; background-color: black">
+		<div id="embedtarget"></div>
+	</body>
+</html>

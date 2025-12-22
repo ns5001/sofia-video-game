@@ -1,0 +1,118 @@
+
+vegetables.png
+size: 191,347
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+broccoli_1
+  rotate: false
+  xy: 143, 27
+  size: 36, 41
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+broccoli_cart
+  rotate: false
+  xy: 2, 141
+  size: 150, 101
+  orig: 162, 102
+  offset: 8, 0
+  index: -1
+broccoli_eyes
+  rotate: false
+  xy: 166, 19
+  size: 18, 6
+  orig: 18, 6
+  offset: 0, 0
+  index: -1
+broccoli_eyes_white
+  rotate: false
+  xy: 143, 18
+  size: 21, 7
+  orig: 21, 7
+  offset: 0, 0
+  index: -1
+broccoli_hand_b
+  rotate: false
+  xy: 119, 122
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+broccoli_head
+  rotate: false
+  xy: 63, 86
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+broccoli_head_blink
+  rotate: false
+  xy: 119, 110
+  size: 26, 10
+  orig: 26, 10
+  offset: 0, 0
+  index: -1
+broccoli_pants
+  rotate: false
+  xy: 2, 21
+  size: 59, 118
+  orig: 59, 118
+  offset: 0, 0
+  index: -1
+broccoli_pole
+  rotate: false
+  xy: 119, 2
+  size: 22, 106
+  orig: 22, 106
+  offset: 0, 0
+  index: -1
+broccoli_shoulder_b
+  rotate: false
+  xy: 154, 164
+  size: 32, 53
+  orig: 32, 53
+  offset: 0, 0
+  index: -1
+broccoli_shoulder_f
+  rotate: false
+  xy: 154, 117
+  size: 32, 45
+  orig: 32, 45
+  offset: 0, 0
+  index: -1
+broccoli_torso
+  rotate: false
+  xy: 63, 6
+  size: 52, 78
+  orig: 52, 78
+  offset: 0, 0
+  index: -1
+broccoli_umbrella
+  rotate: false
+  xy: 2, 244
+  size: 178, 81
+  orig: 178, 81
+  offset: 0, 0
+  index: -1
+broccoli_wrist_b
+  rotate: false
+  xy: 154, 219
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+broccoli_wrist_f
+  rotate: false
+  xy: 147, 70
+  size: 36, 45
+  orig: 36, 45
+  offset: 0, 0
+  index: -1
+vegetables_shadow
+  rotate: false
+  xy: 2, 327
+  size: 187, 18
+  orig: 187, 20
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,682 @@
+{
+"skeleton": {
+	"hash": "xzZjg+T/OxSPoWKZ8o2InkgxGGM",
+	"spine": "3.8.72",
+	"x": 451.45,
+	"y": -4.09,
+	"width": 802,
+	"height": 293,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "color": "7ab4ffff" },
+	{ "name": "pond_root", "parent": "root", "x": 840.52, "y": -45.53, "color": "7ab4ffff" },
+	{
+		"name": "pond_cattail_2",
+		"parent": "pond_root",
+		"length": 104.84,
+		"rotation": 91.3,
+		"x": -204.84,
+		"y": 54.95,
+		"color": "7ab4ffff"
+	},
+	{
+		"name": "pond_cattail_3",
+		"parent": "pond_root",
+		"length": 87.47,
+		"rotation": 86.88,
+		"x": 229.47,
+		"y": 79.57,
+		"color": "7ab4ffff"
+	},
+	{
+		"name": "pond_cattail_4",
+		"parent": "pond_root",
+		"length": 100.09,
+		"rotation": 88.18,
+		"x": 352.77,
+		"y": 218.52,
+		"color": "7ab4ffff"
+	},
+	{
+		"name": "pond_cattail_1",
+		"parent": "pond_root",
+		"length": 91.34,
+		"rotation": 91.49,
+		"x": -367.57,
+		"y": 236.78,
+		"color": "7ab4ffff"
+	},
+	{ "name": "pond_wave_1", "parent": "pond_root", "x": -5.51, "y": 200.26, "color": "7ab4ffff" },
+	{ "name": "goldfish_horizontal", "parent": "root", "x": 712.34, "y": -18.76, "color": "ffb90dff" },
+	{ "name": "goldfish_vert", "parent": "goldfish_horizontal", "y": 58.76, "color": "ffb90dff" },
+	{ "name": "goldfish_rotation", "parent": "goldfish_vert", "y": 68.63, "color": "ffb90dff" },
+	{
+		"name": "goldfish_fin",
+		"parent": "goldfish_rotation",
+		"length": 11.69,
+		"rotation": -110.56,
+		"x": 3.62,
+		"y": -5.52,
+		"color": "ffb90dff"
+	},
+	{
+		"name": "goldfish_dorsal",
+		"parent": "goldfish_rotation",
+		"length": 18.42,
+		"rotation": 143.56,
+		"x": 7.5,
+		"y": 11.81,
+		"color": "ffb90dff"
+	},
+	{
+		"name": "goldfish_tail",
+		"parent": "goldfish_rotation",
+		"length": 17.33,
+		"rotation": -179.25,
+		"x": -22.38,
+		"y": 1.32,
+		"color": "ffb90dff"
+	},
+	{ "name": "pond_wave_2", "parent": "pond_root", "x": -5.51, "y": 200.26, "color": "7ab4ffff" }
+],
+"slots": [
+	{ "name": "water", "bone": "pond_root", "attachment": "water" },
+	{ "name": "wave", "bone": "pond_wave_1", "attachment": "wave" },
+	{ "name": "wave2", "bone": "pond_wave_2", "attachment": "wave" },
+	{ "name": "pond", "bone": "pond_root", "attachment": "pond" },
+	{ "name": "cattail_2", "bone": "pond_cattail_2", "attachment": "cattail_2" },
+	{ "name": "cattail_1", "bone": "pond_cattail_1", "attachment": "cattail_1" },
+	{ "name": "cattail_4", "bone": "pond_cattail_4", "attachment": "cattail_4" },
+	{ "name": "cattail_3", "bone": "pond_cattail_3", "attachment": "cattail_3" },
+	{ "name": "goldfish_dorsal", "bone": "goldfish_dorsal", "attachment": "goldfish_dorsal" },
+	{ "name": "goldfish_tail", "bone": "goldfish_tail", "attachment": "goldfish_tail" },
+	{ "name": "goldfish", "bone": "goldfish_rotation", "attachment": "goldfish" },
+	{ "name": "goldfish_fin", "bone": "goldfish_fin", "attachment": "goldfish_fin" },
+	{ "name": "goldfish_water", "bone": "goldfish_rotation", "attachment": "goldfish_water" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"goldfish_fin": {
+				"goldfish_fin": { "x": 6.25, "y": -0.59, "rotation": 110.56, "width": 15, "height": 17 }
+			},
+			"goldfish_water": {
+				"goldfish_water": { "x": -9.44, "y": 4.32, "width": 74, "height": 50 }
+			},
+			"water": {
+				"water": { "x": 3.2, "y": 178.41, "width": 772, "height": 257 }
+			},
+			"cattail_1": {
+				"cattail_1": { "x": 39.04, "y": -5.02, "rotation": -91.49, "width": 51, "height": 99 }
+			},
+			"wave2": {
+				"wave": { "x": 8.44, "y": -16.32, "width": 728, "height": 223 }
+			},
+			"cattail_3": {
+				"cattail_3": { "x": 44.19, "y": 4.46, "rotation": -86.88, "width": 51, "height": 91 }
+			},
+			"cattail_4": {
+				"cattail_4": { "x": 46.53, "y": -2.69, "rotation": -88.18, "width": 112, "height": 113 }
+			},
+			"goldfish_dorsal": {
+				"goldfish_dorsal": { "x": 8.53, "y": 4.12, "rotation": -143.56, "width": 30, "height": 23 }
+			},
+			"cattail_2": {
+				"cattail_2": { "x": 50.31, "y": 14.09, "rotation": -91.3, "width": 94, "height": 111 }
+			},
+			"pond": {
+				"pond": { "x": 11.93, "y": 187.94, "width": 802, "height": 293 }
+			},
+			"goldfish_tail": {
+				"goldfish_tail": { "x": 5.33, "y": -3.16, "rotation": 179.25, "width": 27, "height": 41 }
+			},
+			"goldfish": {
+				"goldfish": { "x": -1.07, "y": 0.06, "width": 50, "height": 31 }
+			},
+			"wave": {
+				"wave": { "x": 8.44, "y": -16.32, "width": 728, "height": 223 }
+			}
+		}
+	}
+],
+"animations": {
+	"item_goldfish": {
+		"slots": {
+			"cattail_1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"wave2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"cattail_4": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"pond": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"cattail_2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"water": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"wave": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"cattail_3": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"goldfish_rotation": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 1.5, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 0.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 1.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 2 }
+				]
+			},
+			"goldfish_tail": {
+				"rotate": [
+					{ "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 0.5, "angle": 5.97, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 1.5, "angle": -7.3, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 0.5, "x": 1.145, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 1.5, "x": 0.849, "y": 0.958, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 2 }
+				]
+			},
+			"goldfish_fin": {
+				"rotate": [
+					{ "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 0.5, "angle": -25.35, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 1.5, "angle": 9.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 1.5, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"goldfish_dorsal": {
+				"rotate": [
+					{ "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 0.5, "angle": 5.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 1, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 1.5, "angle": -6.92, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 0.5, "x": 0.932, "y": 1.061, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 1.5, "x": 0.853, "y": 0.984, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 2 }
+				]
+			},
+			"goldfish_horizontal": {
+				"translate": [
+					{ "x": -712.34, "y": -106.08 }
+				]
+			}
+		}
+	},
+	"scene_pond": {
+		"slots": {
+			"goldfish": {
+				"attachment": [
+					{ "name": "goldfish" },
+					{ "time": 3.3333, "name": "goldfish" }
+				]
+			},
+			"wave2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3333, "color": "ffffff00" }
+				]
+			},
+			"goldfish_fin": {
+				"attachment": [
+					{ "name": "goldfish_fin" },
+					{ "time": 3.3333, "name": "goldfish_fin" }
+				]
+			},
+			"goldfish_water": {
+				"attachment": [
+					{ "name": "goldfish_water" },
+					{ "time": 3.3333, "name": "goldfish_water" }
+				]
+			},
+			"goldfish_tail": {
+				"attachment": [
+					{ "name": "goldfish_tail" },
+					{ "time": 3.3333, "name": "goldfish_tail" }
+				]
+			},
+			"wave": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3333, "color": "ffffffff" }
+				]
+			},
+			"goldfish_dorsal": {
+				"attachment": [
+					{ "name": "goldfish_dorsal" },
+					{ "time": 3.3333, "name": "goldfish_dorsal" }
+				]
+			}
+		},
+		"bones": {
+			"pond_wave_1": {
+				"scale": [
+					{ "x": 1.002, "y": 1.002, "curve": 0.313, "c2": 0.28, "c3": 0.654, "c4": 0.64 },
+					{ "time": 1.5333, "x": 1.139, "y": 1.139, "curve": "stepped" },
+					{ "time": 1.5667, "x": 0.911, "y": 0.911, "curve": 0.275, "c3": 0.619, "c4": 0.4 },
+					{ "time": 3.3333, "x": 1.002, "y": 1.002 }
+				]
+			},
+			"pond_cattail_2": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 1.6667, "x": -7.44, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 3.3333 }
+				]
+			},
+			"pond_cattail_1": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 1.6667, "x": -9.51, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 3.3333 }
+				]
+			},
+			"pond_cattail_3": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 1.6667, "x": -5.57, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 3.3333 }
+				]
+			},
+			"pond_cattail_4": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 1.6667, "x": -5.29, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 3.3333 }
+				]
+			},
+			"pond_wave_2": {
+				"scale": [
+					{ "x": 0.911, "y": 0.911, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 3.3333, "x": 1.139, "y": 1.139 }
+				]
+			}
+		}
+	},
+	"scene_pond_fish": {
+		"slots": {
+			"wave2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3.3333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.1, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 6.6667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6.7, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 8.4333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 10, "color": "ffffff00" }
+				]
+			},
+			"goldfish_water": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.236 },
+					{ "time": 2.6, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6.5, "color": "ffffff00", "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 10, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "goldfish_water" },
+					{ "time": 2.6, "name": null },
+					{ "time": 6.5, "name": "goldfish_water" },
+					{ "time": 10, "name": "goldfish_water" }
+				]
+			},
+			"wave": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.8667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.9, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 6.6667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 8.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 8.2333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 10, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"pond_cattail_2": {
+				"shear": [
+					{ "time": 0.3333, "curve": 0.25, "c3": 0.236 },
+					{ "time": 1.6667, "x": -7.44, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 3, "curve": "stepped" },
+					{ "time": 3.2667, "curve": 0.25, "c3": 0.236 },
+					{ "time": 4.6, "x": -7.44, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 5.9333, "curve": "stepped" },
+					{ "time": 6.9333, "curve": 0.25, "c3": 0.236 },
+					{ "time": 8.1, "x": -7.44, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 9.2667 }
+				]
+			},
+			"pond_cattail_1": {
+				"shear": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 1.3333, "x": -9.51, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 2.6667, "curve": "stepped" },
+					{ "time": 2.8667, "curve": 0.25, "c3": 0.236 },
+					{ "time": 3.8667, "x": -9.51, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 4.8667, "curve": "stepped" },
+					{ "time": 5.8, "curve": 0.25, "c3": 0.236 },
+					{ "time": 7.1333, "x": -9.51, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 8.4667 }
+				]
+			},
+			"pond_cattail_3": {
+				"shear": [
+					{ "time": 0.7333, "curve": 0.25, "c3": 0.236 },
+					{ "time": 2.0667, "x": -5.57, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 3.4, "curve": "stepped" },
+					{ "time": 3.7333, "curve": 0.25, "c3": 0.236 },
+					{ "time": 4.9, "x": -5.57, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 6.0667, "curve": "stepped" },
+					{ "time": 7.3667, "curve": 0.25, "c3": 0.236 },
+					{ "time": 8.5, "x": -5.57, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 9.6667 }
+				]
+			},
+			"pond_cattail_4": {
+				"shear": [
+					{ "time": 0.8333, "curve": 0.25, "c3": 0.236 },
+					{ "time": 1.9667, "x": -5.29, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 3.1, "curve": "stepped" },
+					{ "time": 3.6667, "curve": 0.25, "c3": 0.236 },
+					{ "time": 5, "x": -5.29, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 6.3333, "curve": "stepped" },
+					{ "time": 7.7333, "curve": 0.25, "c3": 0.236 },
+					{ "time": 8.8667, "x": -5.29, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 10 }
+				]
+			},
+			"goldfish_horizontal": {
+				"translate": [
+					{ "x": 1.59, "y": 9.56, "curve": 0.25, "c3": 0.75 },
+					{ "time": 10, "x": 283.09, "y": 9.56 }
+				]
+			},
+			"goldfish_rotation": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 1.5, "curve": "stepped" },
+					{ "time": 2, "curve": "stepped" },
+					{ "time": 3, "curve": "stepped" },
+					{ "time": 3.5, "curve": "stepped" },
+					{ "time": 4, "curve": "stepped" },
+					{ "time": 5, "curve": "stepped" },
+					{ "time": 5.5, "curve": "stepped" },
+					{ "time": 6, "curve": "stepped" },
+					{ "time": 7, "curve": "stepped" },
+					{ "time": 7.5, "curve": "stepped" },
+					{ "time": 8, "curve": "stepped" },
+					{ "time": 9, "curve": "stepped" },
+					{ "time": 9.5, "curve": "stepped" },
+					{ "time": 10 }
+				],
+				"scale": [
+					{ "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 0.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 1.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 2, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 2.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 3, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 4, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 4.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 5, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 5.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 6, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 6.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 7, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 7.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 8, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 8.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 9, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 9.5, "x": 0.968, "y": 1.007, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 10 }
+				]
+			},
+			"goldfish_vert": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.236 },
+					{ "time": 4.3, "y": 59.47, "curve": "stepped" },
+					{ "time": 4.8333, "y": 59.47, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 10, "y": 18.52 }
+				]
+			},
+			"goldfish_tail": {
+				"rotate": [
+					{ "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 0.5, "angle": 5.97, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 1.5, "angle": -7.3, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 2, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 2.5, "angle": 5.97, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 3, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.5, "angle": -7.3, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 4, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 4.5, "angle": 5.97, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 5, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 5.5, "angle": -7.3, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 6, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 6.5, "angle": 5.97, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 7, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 7.5, "angle": -7.3, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 8, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 8.5, "angle": 5.97, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 9, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 9.5, "angle": -7.3, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 10 }
+				],
+				"scale": [
+					{ "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 0.5, "x": 1.145, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 1.5, "x": 0.849, "y": 0.958, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 2, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 2.5, "x": 1.145, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 3, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.5, "x": 0.849, "y": 0.958, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 4, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 4.5, "x": 1.145, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 5, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 5.5, "x": 0.849, "y": 0.958, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 6, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 6.5, "x": 1.145, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 7, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 7.5, "x": 0.849, "y": 0.958, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 8, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 8.5, "x": 1.145, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 9, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 9.5, "x": 0.849, "y": 0.958, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 10 }
+				]
+			},
+			"goldfish_fin": {
+				"rotate": [
+					{ "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 0.5, "angle": -25.35, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 1.5, "angle": 9.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 2, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 2.5, "angle": -25.35, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 3.5, "angle": 9.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 4, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 4.5, "angle": -25.35, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 5.5, "angle": 9.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 6, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 6.5, "angle": -25.35, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 7.5, "angle": 9.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 8, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 8.5, "angle": -25.35, "curve": 0.743, "c2": 0.01, "c3": 0.764, "c4": 0.99 },
+					{ "time": 9.5, "angle": 9.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 10 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 1.5, "curve": "stepped" },
+					{ "time": 2, "curve": "stepped" },
+					{ "time": 3, "curve": "stepped" },
+					{ "time": 3.5, "curve": "stepped" },
+					{ "time": 4, "curve": "stepped" },
+					{ "time": 5, "curve": "stepped" },
+					{ "time": 5.5, "curve": "stepped" },
+					{ "time": 6, "curve": "stepped" },
+					{ "time": 7, "curve": "stepped" },
+					{ "time": 7.5, "curve": "stepped" },
+					{ "time": 8, "curve": "stepped" },
+					{ "time": 9, "curve": "stepped" },
+					{ "time": 9.5, "curve": "stepped" },
+					{ "time": 10 }
+				]
+			},
+			"goldfish_dorsal": {
+				"rotate": [
+					{ "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 0.5, "angle": 5.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 1, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 1.5, "angle": -6.92, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 2, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 2.5, "angle": 5.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 3, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 3.5, "angle": -6.92, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 4, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 4.5, "angle": 5.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 5, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 5.5, "angle": -6.92, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 6, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 6.5, "angle": 5.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 7, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 7.5, "angle": -6.92, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 8, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 8.5, "angle": 5.52, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 9, "curve": 0.163, "c2": 0.5, "c3": 0.472 },
+					{ "time": 9.5, "angle": -6.92, "curve": 0.543, "c3": 0.848, "c4": 0.3 },
+					{ "time": 10 }
+				],
+				"scale": [
+					{ "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 0.5, "x": 0.932, "y": 1.061, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 1, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 1.5, "x": 0.853, "y": 0.984, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 2, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 2.5, "x": 0.932, "y": 1.061, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 3, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 3.5, "x": 0.853, "y": 0.984, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 4, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 4.5, "x": 0.932, "y": 1.061, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 5, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 5.5, "x": 0.853, "y": 0.984, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 6, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 6.5, "x": 0.932, "y": 1.061, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 7, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 7.5, "x": 0.853, "y": 0.984, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 8, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 8.5, "x": 0.932, "y": 1.061, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 9, "curve": 0.39, "c2": 0.5, "c3": 0.771 },
+					{ "time": 9.5, "x": 0.853, "y": 0.984, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 10 }
+				]
+			},
+			"pond_wave_1": {
+				"scale": [
+					{ "x": 1.002, "y": 1.002, "curve": 0.313, "c2": 0.28, "c3": 0.654, "c4": 0.64 },
+					{ "time": 1.5333, "x": 1.139, "y": 1.139, "curve": "stepped" },
+					{ "time": 1.5667, "x": 0.911, "y": 0.911, "curve": 0.275, "c3": 0.619, "c4": 0.4 },
+					{
+						"time": 3.3333,
+						"x": 1.002,
+						"y": 1.002,
+						"curve": 0.313,
+						"c2": 0.28,
+						"c3": 0.654,
+						"c4": 0.64
+					},
+					{ "time": 4.8667, "x": 1.139, "y": 1.139, "curve": "stepped" },
+					{ "time": 4.9, "x": 0.911, "y": 0.911, "curve": 0.275, "c3": 0.619, "c4": 0.4 },
+					{
+						"time": 6.6667,
+						"x": 1.002,
+						"y": 1.002,
+						"curve": 0.313,
+						"c2": 0.28,
+						"c3": 0.654,
+						"c4": 0.64
+					},
+					{ "time": 8.2, "x": 1.139, "y": 1.139, "curve": "stepped" },
+					{ "time": 8.2333, "x": 0.911, "y": 0.911, "curve": 0.275, "c3": 0.619, "c4": 0.4 },
+					{ "time": 10, "x": 1.002, "y": 1.002 }
+				]
+			},
+			"pond_wave_2": {
+				"scale": [
+					{ "x": 0.911, "y": 0.911, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 3.3, "x": 1.139, "y": 1.139, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3333, "x": 0.911, "y": 0.911, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 6.6667, "x": 1.139, "y": 1.139, "curve": 0.25, "c3": 0.75 },
+					{ "time": 6.7, "x": 0.911, "y": 0.911, "curve": 0.25, "c3": 0.619, "c4": 0.5 },
+					{ "time": 10, "x": 1.139, "y": 1.139 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,41 @@
+
+transition.png
+size: 1996,1406
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue_star
+  rotate: false
+  xy: 698, 2
+  size: 694, 692
+  orig: 694, 694
+  offset: 0, 1
+  index: -1
+logo
+  rotate: false
+  xy: 1394, 94
+  size: 600, 600
+  orig: 600, 600
+  offset: 0, 0
+  index: -1
+red_star
+  rotate: false
+  xy: 2, 6
+  size: 694, 692
+  orig: 694, 694
+  offset: 0, 1
+  index: -1
+shiney_1 copy
+  rotate: false
+  xy: 815, 696
+  size: 712, 708
+  orig: 714, 708
+  offset: 1, 0
+  index: -1
+yellow_star
+  rotate: false
+  xy: 2, 700
+  size: 811, 704
+  orig: 812, 704
+  offset: 0, 0
+  index: -1

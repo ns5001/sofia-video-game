@@ -1,0 +1,90 @@
+
+park_pond.png
+size: 405,454
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cattail_1
+  rotate: true
+  xy: 119, 426
+  size: 26, 50
+  orig: 26, 50
+  offset: 0, 0
+  index: -1
+cattail_2
+  rotate: true
+  xy: 219, 405
+  size: 47, 56
+  orig: 47, 56
+  offset: 0, 0
+  index: -1
+cattail_3
+  rotate: true
+  xy: 171, 426
+  size: 26, 46
+  orig: 26, 46
+  offset: 0, 0
+  index: -1
+cattail_4
+  rotate: true
+  xy: 277, 396
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+goldfish
+  rotate: false
+  xy: 53, 436
+  size: 25, 16
+  orig: 25, 16
+  offset: 0, 0
+  index: -1
+goldfish_dorsal
+  rotate: false
+  xy: 13, 440
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+goldfish_fin
+  rotate: true
+  xy: 2, 444
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+goldfish_tail
+  rotate: true
+  xy: 30, 438
+  size: 14, 21
+  orig: 14, 21
+  offset: 0, 0
+  index: -1
+goldfish_water
+  rotate: false
+  xy: 80, 427
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+pond
+  rotate: false
+  xy: 2, 2
+  size: 401, 147
+  orig: 401, 147
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 2, 151
+  size: 386, 129
+  orig: 386, 129
+  offset: 0, 0
+  index: -1
+wave
+  rotate: false
+  xy: 2, 282
+  size: 364, 112
+  orig: 364, 112
+  offset: 0, 0
+  index: -1

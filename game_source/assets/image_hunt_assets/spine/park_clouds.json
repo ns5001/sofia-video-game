@@ -1,0 +1,82 @@
+{
+"skeleton": {
+	"hash": "D6OS0gjXTl6jsTcjHoc1N+v14H8",
+	"spine": "3.8.72",
+	"x": -728.5,
+	"y": 580.76,
+	"width": 2466.35,
+	"height": 131,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "cloud_1", "parent": "root", "x": -249.63, "y": 648.95 },
+	{ "name": "cloud_2", "parent": "root", "x": -677.54, "y": 655.03 },
+	{ "name": "cloud_3", "parent": "root", "x": -249.63, "y": 648.95 },
+	{ "name": "cloud_4", "parent": "root", "x": -677.54, "y": 655.03 }
+],
+"slots": [
+	{ "name": "cloud_1", "bone": "cloud_1", "attachment": "cloud_1" },
+	{ "name": "cloud_3", "bone": "cloud_3", "attachment": "cloud_1" },
+	{ "name": "cloud_2", "bone": "cloud_2", "attachment": "cloud_2" },
+	{ "name": "cloud_4", "bone": "cloud_4", "attachment": "cloud_2" },
+	{ "name": "clouds_buildings", "bone": "root", "attachment": "clouds_buildings" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"clouds_buildings": {
+				"clouds_buildings": { "x": -185, "y": 604.76, "width": 1087, "height": 48 }
+			},
+			"cloud_1": {
+				"cloud_1": { "x": 16.63, "y": 5.82, "width": 353, "height": 114 }
+			},
+			"cloud_2": {
+				"cloud_2": { "x": 13.54, "y": 2.73, "width": 181, "height": 50 }
+			},
+			"cloud_3": {
+				"cloud_1": { "x": 16.63, "y": 5.82, "width": 353, "height": 114 }
+			},
+			"cloud_4": {
+				"cloud_2": { "x": 13.54, "y": 2.73, "width": 181, "height": 50 }
+			}
+		}
+	}
+],
+"animations": {
+	"scene_clouds": {
+		"bones": {
+			"cloud_1": {
+				"translate": [
+					{ "x": 2246.3 },
+					{ "time": 26.6667, "x": -1263.96 }
+				]
+			},
+			"cloud_2": {
+				"translate": [
+					{ "x": 2081.69 },
+					{ "time": 26.6667, "x": -1090.45 }
+				]
+			},
+			"cloud_3": {
+				"translate": [
+					{ "x": 491.17 },
+					{ "time": 12.7667, "x": -1238.49, "curve": "stepped" },
+					{ "time": 13.6, "x": 2211.2 },
+					{ "time": 26.6667, "x": 491.17 }
+				]
+			},
+			"cloud_4": {
+				"translate": [
+					{ "x": 495.62 },
+					{ "time": 12.7667, "x": -1067.43, "curve": "stepped" },
+					{ "time": 13.6, "x": 2049.96 },
+					{ "time": 26.6667, "x": 495.62 }
+				]
+			}
+		}
+	}
+}
+}

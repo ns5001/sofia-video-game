@@ -1,0 +1,41 @@
+
+park_flowers.png
+size: 46,44
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+butterfly_body
+  rotate: true
+  xy: 37, 5
+  size: 10, 5
+  orig: 10, 5
+  offset: 0, 0
+  index: -1
+butterfly_wing
+  rotate: true
+  xy: 2, 3
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+flower_1
+  rotate: false
+  xy: 29, 17
+  size: 15, 25
+  orig: 15, 25
+  offset: 0, 0
+  index: -1
+flower_2
+  rotate: false
+  xy: 2, 16
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+flower_3
+  rotate: true
+  xy: 25, 2
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+<!-- rtl dictates whether this locale is a right to left language -->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells us which text field to change. -->
+<!-- fontScale is Optional. It allows you to customize the size of the font used in this particular field. 1 is normal. 2 is double size. .5 is half size. Defaults to 1.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.-->
+<!-- Variables may be inserted into localization strings through this format - {0} - where 0 is the index of the array of variables passed in. -->
+
+<strings defaultFont="Basic" rtl="false">
+	<!--Common-->
+	<string id="common.loading"							fontName="Basic" 	fontScale=".25" offsetX="0" offsetY="0"><![CDATA[Loading {0}%]]></string>
+	<string id="common.orientation_landscape"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Please flip back to Landscape mode.]]></string>
+	<!--Splash-->
+	<string id="splash.title1"							fontName="Basic"	fontScale="1.25"	offsetX="0" offsetY="0"><![CDATA[Bubble Guppies:]]></string>
+	<string id="splash.title2"							fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Art Museum Painting]]></string>
+	<string id="splash.tap_anywhere"					fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play]]></string>
+	<string id="splash.click_anywhere"					fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play]]></string>
+    <!--Prototype-->
+	<string id="prototype.transition_cutscene"			fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Transition Cutscene]]></string>
+	<string id="prototype.opening_cutscene"				fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Opening Cutscene]]></string>
+	<!-- Debug Text -->
+	<string id="debug.debugfield"						fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[{0}}]]></string>
+	<!-- Debug Text -->
+	<string id="experiment.clipboard_allergen"			fontName="pencil_black"	fontScale=".75"	offsetX="0" offsetY="0"><![CDATA[{0}]]></string>
+	<string id="experiment.testing"						fontName="pencil_white"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[{0}]]></string>
+	<string id="quiz.question"							fontName="cera_medium"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[{0}]]></string>
+	<string id="quiz.answer"							fontName="cera_medium"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[{0}]]></string>
+	<string id="cutscene.word"							fontName="pencil_white"	fontScale=".75"	offsetX="0" offsetY="0"><![CDATA[{0}]]></string>
+	<string id="cutscene.definition"					fontName="pencil_white"	fontScale=".75"	offsetX="0" offsetY="0"><![CDATA[{0}]]></string>
+	<string id="cutscene.clickableWord"					fontName="cera_bold"	fontScale=".75"	offsetX="0" offsetY="0"><![CDATA[{0}]]></string>
+	<string id="ending.part1"							fontName="Filson_reg_black"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Pick up a\nfree copy of]]></string>
+	<string id="ending.part2"							fontName="Filson_bold_blue"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA["Sofia Learns\nAbout Research"]]></string>
+	<string id="ending.part3"							fontName="Filson_reg_black"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[at the front desk]]></string>
+	<string id="quiz1.research_study"					fontName="Filson_reg_white"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[That's right! You have to consent to be included\nin any research study.]]></string>
+	<string id="quiz2.definition"						fontName="Filson_reg_black"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[{0}]]></string>
+	<string id="quiz3.definition"						fontName="Filson_reg_white"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Answer]]></string>
+	<string id="cutscene.instruction"					fontName="Filson_reg_white"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Click the blue words\nfor their definitions!]]></string>
+	<string id="park.instruction"						fontName="Filson_reg_white"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Tap the checkmark to\ncontinue or tap a clip board\nobject to remove.]]></string>
+
+	<string id="ending.link"						fontName="Filson_reg_white"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[VISIT WEBSITE]]></string>
+</strings>
